@@ -8,6 +8,7 @@ body {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 
 .logo {
@@ -63,7 +64,13 @@ img {
     justify-content: space-between; 
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+.image-section img {
+    width: 40%;
+
 }
 
 .contact-entry-form ul {
@@ -121,8 +128,14 @@ footer {
     display: flex;
     margin-bottom: 15px;
     font-size: 30px;
+    max-width: 100%;
 }
 
 .service-list ul{
     list-style-type: none;
+}
+
+.service-list li img {
+    width: 50%;
+    margin-bottom: 10px;
 }
